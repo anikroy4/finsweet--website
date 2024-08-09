@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,ol{
+    list-style:none ;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+
+    width: 1600px;
+    padding: 32px 0;
+    background: #1C1E53;
+    margin: auto;
+}
+nav .container{
+   
+    padding-left: 160px;  
+    padding-right: 160px;
+    margin:0 auto;
+}
+
+
+
+nav .container .box{
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+
+nav .container .box .logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+nav .container .box .navitem{
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+
+
+nav .container .box .navitem ul{
+    display:flex;
+    align-items: center;
+    column-gap: 32px;
+}
+
+
+nav .container .box .navitem ul li{
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+nav .container .box .navitem ul li:hover{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+}
+
+nav .container .box a{
+    text-align: center;
+    align-items: center;
+    display: inline;
+    justify-content: center; 
+    padding: 16px 48px;  
+    color: var(--White, #fff);
+    width: auto;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+}
+/* -----------------Banner Start------------------- */
+
+
+.banner_part{
+    background: #1C1E53;
+    width: 1600px;
+    margin:0 auto;
+   
+}
+.banner_part .container{
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_part .container.left{
+    width: 50%;
+}
+
+.banner_part .container .left h2{
+    width: 582px;
+    color: var(--White, #FFF);
+    font-family: 'Poppins';
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    margin-top: 128px;
+}
+
+.banner_part .container .left p{
+    width: 562px;
+    opacity: 0.7;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    margin-top: 24px;
+}
+
+
+.banner_part .container .left .bannerbtn a{
+    color: #1B1C2B;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    border-radius: 41px;
+    background: #FCD980;
+    display: inline-flex;
+    padding: 16px 56px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 128px;
+
+}
+
+
+
+.banner_part .container .left .bannerbtn  i{
+    margin-left:16px;
+}
+
+
+
