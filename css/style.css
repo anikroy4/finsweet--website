@@ -18,8 +18,9 @@ nav{
     background: #1C1E53;
     margin: auto;
 }
+
+
 nav .container{
-   
     padding-left: 160px;  
     padding-right: 160px;
     margin:0 auto;
@@ -93,24 +94,24 @@ nav .container .box a{
 /* -----------------Banner Start------------------- */
 
 
-.banner_part{
+.banner__part{
     background: #1C1E53;
     width: 1600px;
     margin:0 auto;
    
 }
-.banner_part .container{
+.banner__part .container{
     padding-left: 160px;
     padding-right: 160px;
     display: flex;
     justify-content: space-between;
 }
 
-.banner_part .container.left{
+.banner__part .container.left{
     width: 50%;
 }
 
-.banner_part .container .left h2{
+.banner__part .container .left h2{
     width: 582px;
     color: var(--White, #FFF);
     font-family: 'Poppins';
@@ -121,7 +122,7 @@ nav .container .box a{
     margin-top: 128px;
 }
 
-.banner_part .container .left p{
+.banner__part .container .left p{
     width: 562px;
     opacity: 0.7;
     color: var(--White, #FFF);
@@ -134,7 +135,13 @@ nav .container .box a{
 }
 
 
-.banner_part .container .left .bannerbtn a{
+.banner__part .container .left .bannerbtn{
+    display: flex;
+    column-gap: 26px;
+}
+
+
+.banner__part .container .left .bannerbtn a{
     color: #1B1C2B;
     font-family: 'Manrope';
     font-size: 18px;
@@ -149,14 +156,155 @@ nav .container .box a{
     align-items: center;
     margin-top: 48px;
     margin-bottom: 128px;
+    
+
 
 }
 
 
 
-.banner_part .container .left .bannerbtn  i{
+.banner__part .container .left .bannerbtn  i{
     margin-left:16px;
+    
+}
+
+.banner__part .container .left .bannerbtn a:hover{
+    background: #1C1E53;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    align-items: center;
+}
+
+
+.banner__part .container .right{
+    margin-top: 149px;
+}
+
+
+/* -----------------Banner_part End------------------------ */
+
+/* =================Service_Part Start========================= */
+.service__part{
+    background: #F4F6FC;
+    width: 1600px;
+    margin:0 auto;
 }
 
 
 
+.service__part .container{
+    display: flex;
+    padding-left: 160px;  
+    padding-right: 160px;
+    margin:0 auto;
+    padding-top: 128px;
+}
+
+
+.service__part .container .left h2{
+    width: 405px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    
+}
+
+
+
+.service__part .container .left p{
+    width: 405px;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+.service__part .container .left a{
+    text-align: center;
+    color: black;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    border-radius: 41px;
+    background: #FCD980;
+    display: inline-flex;
+    padding: 16px 56px;
+    margin-bottom: 333px;
+}
+
+
+
+.service__part .container .left a:hover{
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    border-radius: 41px;
+    background:none ;
+    display: inline-flex;
+    padding: 16px 56px;
+}
+
+
+
+.service__part .container .left i{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+
+
+
+.service__part .container .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.service__part .container .right .card__group{
+    width: 328px;
+    /* height: 178px; */
+    flex-shrink: 0;
+}
+.service__part .container .right .card__group h4{
+    width: 328px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; /* 150% */
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.service__part .container .right .card__group p{
+    width: 303px;
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 48px;
+}
+/* ==================Service_Part End========================= */
